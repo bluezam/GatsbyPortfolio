@@ -1,0 +1,29 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+	design & development	: Michael Bao
+	Site					        : https://michaelbao.dev
+  GitHub					      : @bluezam
+	Location				      : Oakland, California
+
+/* SITE */
+	Typography				    : Brandon Grotesque, FF Tisa Sans Web Pro
+	Software				      : Gatsby.js, React, VS Code, Sketch, macOS
+
+
+<!--
+      ___                   
+     /__/\         _____    
+    |  |::\       /  /::\   
+    |  |:|:\     /  /:/\:\  
+  __|__|:|\:\   /  /:/~/::\ 
+ /__/::::| \:\ /__/:/ /:/\:|
+ \  \:\~~\__\/ \  \:\/:/~/:/
+  \  \:\        \  \::/ /:/ 
+   \  \:\        \  \:\/:/  
+    \  \:\        \  \::/   
+     \__\/         \__\/  
+	 
+-->

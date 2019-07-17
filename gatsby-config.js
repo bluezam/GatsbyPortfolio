@@ -1,34 +1,87 @@
+const path = require('path')
+const fs = require('fs')
+const yaml = require('js-yaml')
+const meta = yaml.load(fs.readFileSync('./content/meta.yml', 'utf8'))
+const { title, url, matomoSite, matomoUrl } = meta[0]
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    siteUrl: `${url}`
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-transformer-yaml',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        plugins: [
+          {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+              name: 'content',
+              path: path.join(__dirname, 'content')
+            }
+          }
+        ]
+      }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-transformer-json',
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
+        plugins: [
+          {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+              name: 'pkg',
+              path: path.join(__dirname, 'package.json')
+            }
+          }
+        ]
+      }
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        includePaths: [`${__dirname}/node_modules`, `${__dirname}/src/styles`]
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: path.join(__dirname, 'src', 'images')
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-svgr',
+      options: {
+        icon: true
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: `${matomoSite}`,
+        siteUrl: `${url}`,
+        matomoUrl: `${matomoUrl}`,
+        localScript: '/piwik.js'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: title.toLowerCase(),
+        short_name: 'mk',
+        start_url: '/',
+        background_color: '#e7eef4',
+        theme_color: '#88bec8',
+        icon: 'src/images/favicon.png',
+        display: 'minimal-ui',
+        cache_busting_mode: 'name'
+      }
+    },
+    'gatsby-plugin-react-helmet',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-offline'
+  ]
 }
