@@ -1,0 +1,144 @@
+- title: FoodQ
+  slug: '/foodq/'
+  img: 'images/foodq-01.png'
+  description: >
+    [FoodQ](https://foodq-react-prod.herokuapp.com/) was a project that applies real restaurant website applications. It features a waitlist application and phone notification. 
+
+    It focused on using new and popular frontend and backend technologies such as React, GraphQL, Prisma, Twilio, Websockets and such. 
+    
+    This was a collaboration project between me and fellow cohorts [David Starr](https://www.linkedin.com/in/david-l-starr/) and Rachel Hollister.
+
+  links:
+    - title: Link
+      type: website
+      url: https://foodq-react-prod.herokuapp.com/
+    - title: Github
+      type: github
+      url: https://github.com/bluezam/Food-Q
+  techstack:
+    - React
+    - ExpressSession
+    - GraphQL
+    - Websockets
+    - Prisma
+    - Twilio
+    - Bootstrap
+    - JavaScript
+    - Heroku
+
+- title: JamSesh
+  slug: '/jamsesh/'
+  img: 'images/jamsesh-01.png'
+  description: >
+    [JamSesh](http://www.jamsesh.xyz/) was a project that allows its users to find other musicians to jam out and play together. Kinda like tinder but for musicians. 
+
+    Users can create their own profile with datas on their preferred style of music and instrument. Contains a map function to see other users around.
+
+    This was a collaboration project between me and fellow cohorts [Nico Viarnes](https://www.linkedin.com/in/nicoviarnes/), Jacob Haas, and Michael Navid.
+
+  techstack:
+    - Sequlize
+    - Express
+    - ExpressSession
+    - BCrypt
+    - JavaScript
+    - Heroku
+    - RestfulAPI
+    - ZurbFoundation
+    - Handlebars
+    - NodeMailer
+    - MapboxAPI
+
+  links:
+    - title: Link
+      type: website
+      url: http://www.jamsesh.xyz/
+    - title: GitHub
+      type: github
+      url: https://github.com/bluezam/project-2
+
+- title: UtubeScrappy
+  slug: '/utubescrappy/'
+  img: 'images/utubescrappy-01.png'
+  description: >
+    Website using cheerios to scrap datas from youtube and storing them using mongoDB. Created my own comment section. Also tested docker with it.
+
+    [Click here](https://rocky-cliffs-44481.herokuapp.com) to start scrapping!
+
+  techstack:
+    - Express
+    - MongoDB
+    - Handlebars
+    - Materalize
+    - Jquery
+    - JavaScript
+    - Cheerio
+    - Docker
+    - AJAX
+
+  links:
+    - title: Link
+      type: website
+      url: https://rocky-cliffs-44481.herokuapp.com
+    - title: GitHub
+      type: github
+      url: https://github.com/bluezam/UTubeScrappy
+
+- title: EatDaBurger
+  slug: '/eatdaburger/'
+  img: 'images/eatdaburger-01.png'
+  description: >
+    [Eat-Da-Burger](https://intense-wildwood-65323.herokuapp.com) is a burger eating application. Create and eat delicious burgers!
+
+  techstack:
+    - Express
+    - MySQL
+    - Handlebars
+    - Materalize
+    - ORM
+    - JavaScript
+
+  links:
+    - title: Link
+      type: website
+      url: https://intense-wildwood-65323.herokuapp.com
+    - title: GitHub
+      type: github
+      url: https://github.com/bluezam/BurgerBurger
+
+- title: React Click Game
+  slug: '/reactclickgame/'
+  img: 'images/reactclickgame-01.png'
+  description: >
+    [Chinese Zodiac](https://bluezam.github.io/reactclickdis/) is a simple image click game using react. 
+
+  techstack:
+    - React
+    - HTML
+    - JavaScript
+
+  links:
+    - title: Link
+      type: website
+      url: https://bluezam.github.io/reactclickdis/
+    - title: Github
+      type: github
+      url: https://github.com/bluezam/reactclickdis
+
+- title: 'MultiplayerMaze'
+  slug: '/firebasempmaze/'
+  img: 'images/firebasempmaze-01.png'
+  links:
+    - title: Link
+      type: website
+      url: https://bluezam.github.io/MPFBMaze/
+    - title: GitHub
+      type: github
+      url: https://github.com/bluezam/MPFBMaze
+  description: >
+    A [maze game](https://github.com/bluezam/MPFBMaze) to learn maze generation algorithm. Using firebase as backend for multiplayer capability.
+
+  techstack:
+    - JavaScript
+    - Firebase
+    - Github

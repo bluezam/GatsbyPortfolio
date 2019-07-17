@@ -1,0 +1,28 @@
+- title: Michael Bao
+  tagline: Developer
+  description: Portfolio of Michael Bao.
+  url: https://michaelbao.dev
+  email: michaelbao13@gmail.com
+  avatar: ../src/images/avatar.jpg
+  img: ../src/images/linkedin-card.png
+
+  social:
+    Email: mailto:michaelbao13@gmail.com
+    Twitter: https://twitter.com/Bluezam13
+    GitHub: https://github.com/bluezam
+    Linkedin: https://www.linkedin.com/in/michaelbao13/
+
+  availability:
+    status: false
+    available: 'Available for new projects. <a href="mailto:michaelbao13@gmail.com">Let us chat</a>!'
+    unavailable: 'Available for new projects. <a href="mailto:michaelbao13@gmail.com">Let us chat</a>!'
+
+  typekitID: dtg3zui
+
+  allowedHosts:
+    - michaelbao.dev
+    - beta.michaelbao.dev
+    - localhost
+
+  gpg: test
+  addressbook: test
