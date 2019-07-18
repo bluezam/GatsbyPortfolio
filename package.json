@@ -5,7 +5,6 @@
   "homepage": "https://michaelbao.dev",
   "repository": "github:bluezam/GatsbyPortfolio",
   "bugs": "https://github.com/bluezam/GatsbyPortfolio/issues",
-  "license": "MIT",
   "author": "Michael Bao <michaelbao13@gmail.com>",
   "scripts": {
     "start": "gatsby develop",
