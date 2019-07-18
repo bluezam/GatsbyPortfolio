@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import AppProvider from './src/store/AppProvider'
 import wrapPageElementWithLayout from './src/helpers/wrapPageElement'
 
+
 // Global styles
 import './src/styles/global.scss'
 

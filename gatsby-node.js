@@ -1,5 +1,4 @@
 /* eslint-disable no-console */
-
 const path = require('path')
 const remark = require('remark')
 const markdown = require('remark-parse')
