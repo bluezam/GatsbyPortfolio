@@ -1,9 +1,9 @@
-# !/usr/bin/env bash
+!/usr/bin/env bash
 
 # required environment variables:
-# AWS_ACCESS_KEY_ID
-# AWS_SECRET_ACCESS_KEY
-# AWS_DEFAULT_REGION
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_DEFAULT_REGION
 AWS_S3_BUCKET="michaelbao.dev"
 AWS_S3_BUCKET_BETA="beta.michaelbao.dev"
 SITEMAP_URL="https%3A%2F%2Fmichaelbao.dev%2Fsitemap.xml"
