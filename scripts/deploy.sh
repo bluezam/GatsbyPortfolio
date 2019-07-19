@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-#
+# !/usr/bin/env bash
+
 # required environment variables:
 # AWS_ACCESS_KEY_ID
 # AWS_SECRET_ACCESS_KEY

@@ -28,5 +28,4 @@ after_success:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
   - npm run deploy
-  - npm run lh -- https://beta.michaelbao.dev
 
