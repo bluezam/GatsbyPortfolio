@@ -1,13 +1,22 @@
+dist: xenial
 language: node_js
-node_js:
-  - 10.16.0
-install: yarn
-script: gatsby build
-deploy:
-  provider: s3
-  access_key_id: $AWS_KEY
-  secret_access_key: $AWS_SECRET
-  bucket: 'michaelbao.dev'
-  skip_cleanup: true
-  acl: public_read
-  local_dir: public
+node_js: node
+
+cache:
+  npm: true
+  directories:
+    - public
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install python3-pip
+  - sudo -H pip3 install --upgrade pip
+
+script:
+  - npm run build
+
+after_success:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+  - npm run deploy
+
