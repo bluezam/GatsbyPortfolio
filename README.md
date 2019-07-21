@@ -1,13 +1,13 @@
 # GatsbyPortfolio
 
 <p align="center">
-<!--   <a href="https://https://michaelbao.dev"><img src="src/images/github-header.png" /></a> -->
+  <a href="https://https://michaelbao.dev"><img src="src/images/github-header.png" /></a>
  </p>
 <h2 align="center">
         Portfolio built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
 </h2>
 <p align="center">
-<!--   <a href="https://https://michaelbao.dev">https://michaelbao.dev</a> -->
+  <a href="https://https://michaelbao.dev">https://michaelbao.dev</a>
 </p>
 
 
