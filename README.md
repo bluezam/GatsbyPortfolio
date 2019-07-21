@@ -16,7 +16,7 @@
 The whole [portfolio](https://michaelbao.dev) is a React-based Single Page App built with [Gatsby v2](https://www.gatsbyjs.org).
 
 
-## Contentst
+## Contents
 
 All content is powered by one YAML file where all the portfolio's projects are defined. The project description itself is transformed from Markdown written inside the YAML file into HTML on build time.
 
@@ -59,4 +59,27 @@ All SVG assets under `src/images/` will be converted to React components with th
 import { ReactComponent as Logo } from './components/svg/Logo'
 
 return <Logo />
+```
+
+## 🍬 Typekit component
+
+Includes a component for adding the Typekit snippet.
+
+If you want to know how, have a look at the respective component:
+
+- [`src/components/atoms/Typekit.jsx`](src/components/atoms/Typekit.jsx)
+
+## ✨ Development
+
+You can simply use [Docker](https://www.docker.com) & [Docker Compose](https://docs.docker.com/compose/) or install and run dependencies on your local system.
+
+```bash
+git clone
+
+# use Docker
+docker-compose up
+
+# or go with local system
+npm i
+npm start
 ```
