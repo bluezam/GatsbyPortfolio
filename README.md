@@ -7,7 +7,7 @@
         Portfolio built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
 </h2>
 <p align="center">
-  <a href="https://michaelbao.dev">https://michaelbao.dev</a>
+  <a href="michaelbao.dev">michaelbao.dev</a>
 </p>
 
 
