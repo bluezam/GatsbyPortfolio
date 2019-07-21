@@ -61,7 +61,7 @@ import { ReactComponent as Logo } from './components/svg/Logo'
 return <Logo />
 ```
 
-## 🍬 Typekit component
+## Typekit component
 
 Includes a component for adding the Typekit snippet.
 
@@ -69,7 +69,7 @@ If you want to know how, have a look at the respective component:
 
 - [`src/components/atoms/Typekit.jsx`](src/components/atoms/Typekit.jsx)
 
-## ✨ Development
+## Development
 
 You can simply use [Docker](https://www.docker.com) & [Docker Compose](https://docs.docker.com/compose/) or install and run dependencies on your local system.
 
