@@ -42,7 +42,7 @@ All project images use one single component where one main GraphQL query fragmen
 
 ## Theme switcher
 
-There is a theme switcher which allows user to toggle between a light and a dark theme. Switching between them also happens automatically based on user's local sunset and sunrise times. Uses Cloudflare's geo location HTTP header functionality.
+There is a theme switcher which allows user to toggle between a light and a dark theme.
 
 If a visitor has set the theme manually that selection is remembered in `localStorage`, and is restored on next visit.
 
