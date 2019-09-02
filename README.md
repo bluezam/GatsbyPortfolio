@@ -75,7 +75,7 @@ docker-compose up
 npm i
 npm start
 ```
-## Lighthough
+## Lighthouse Scoring
 
 <p align="center">
   <a href="https://michaelbao.dev"><img src="src/images/Lighthouse2.png" height="auto" width="auto"/></a>
