@@ -25,6 +25,7 @@
     - Bootstrap
     - JavaScript
     - Heroku
+    
 
 - title: JamSesh
   slug: '/jamsesh/'
@@ -57,6 +58,27 @@
       type: github
       url: https://github.com/bluezam/project-2
 
+
+- title: reactFirebaseMarket
+  slug: '/reactfirebasemarket/'
+  img: 'images/reactFirebaseMarket-01.png'
+  description: >
+    [reactFirebaseMarket](https://romantic-hugle-d1dae9.netlify.com/) is a market sim. Create your item with description, price and availability
+
+  techstack:
+    - JavaScript
+    - React
+    - Firebase
+
+  links:
+    - title: Link
+      type: website
+      url: https://romantic-hugle-d1dae9.netlify.com/
+    - title: GitHub
+      type: github
+      url: https://github.com/bluezam/reactFirebaseMarket
+
+
 - title: UtubeScrappy
   slug: '/utubescrappy/'
   img: 'images/utubescrappy-01.png'
@@ -84,27 +106,25 @@
       type: github
       url: https://github.com/bluezam/UTubeScrappy
 
-- title: EatDaBurger
-  slug: '/eatdaburger/'
-  img: 'images/eatdaburger-01.png'
-  description: >
-    [Eat-Da-Burger](https://intense-wildwood-65323.herokuapp.com) is a burger eating application. Create and eat delicious burgers!
 
-  techstack:
-    - Express
-    - MySQL
-    - Handlebars
-    - Materalize
-    - ORM
-    - JavaScript
-
+- title: 'MultiplayerMaze'
+  slug: '/firebasempmaze/'
+  img: 'images/firebasempmaze-01.png'
   links:
     - title: Link
       type: website
-      url: https://intense-wildwood-65323.herokuapp.com
+      url: https://bluezam.github.io/MPFBMaze/
     - title: GitHub
       type: github
-      url: https://github.com/bluezam/BurgerBurger
+      url: https://github.com/bluezam/MPFBMaze
+  description: >
+    A [maze game](https://bluezam.github.io/MPFBMaze/) to learn maze generation algorithm. Using firebase as backend for multiplayer capability.
+
+  techstack:
+    - JavaScript
+    - Firebase
+    - Github
+
 
 - title: React Click Game
   slug: '/reactclickgame/'
@@ -125,20 +145,3 @@
       type: github
       url: https://github.com/bluezam/reactclickdis
 
-- title: 'MultiplayerMaze'
-  slug: '/firebasempmaze/'
-  img: 'images/firebasempmaze-01.png'
-  links:
-    - title: Link
-      type: website
-      url: https://bluezam.github.io/MPFBMaze/
-    - title: GitHub
-      type: github
-      url: https://github.com/bluezam/MPFBMaze
-  description: >
-    A [maze game](https://github.com/bluezam/MPFBMaze) to learn maze generation algorithm. Using firebase as backend for multiplayer capability.
-
-  techstack:
-    - JavaScript
-    - Firebase
-    - Github
