@@ -78,5 +78,5 @@ npm start
 ## Lighthough
 
 <p align="center">
-  <a href="https://michaelbao.dev"><img src="src/images/Lighthouse2.png" height="250" width="300"/></a>
+  <a href="https://michaelbao.dev"><img src="src/images/Lighthouse2.png" height="auto" width="auto"/></a>
 </p>
