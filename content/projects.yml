@@ -61,9 +61,13 @@
 
 - title: reactFirebaseMarket
   slug: '/reactfirebasemarket/'
-  img: 'images/reactFirebaseMarket-01.png'
+  img: 'images/reactfirebasemarket-01.png'
   description: >
-    [reactFirebaseMarket](https://romantic-hugle-d1dae9.netlify.com/) is a market sim. Create your item with description, price and availability
+    [reactFirebaseMarket](https://romantic-hugle-d1dae9.netlify.com/) is a market sim. 
+    
+    Create your item with description, price and availability
+
+    Project is made using Javascript, React, and Firebase as backend.
 
   techstack:
     - JavaScript
