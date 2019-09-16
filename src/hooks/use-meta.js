@@ -10,9 +10,9 @@ const query = graphql`
       email
       social {
         Email
-        Twitter
         GitHub
         Linkedin
+        Instagram
       }
       availability {
         status

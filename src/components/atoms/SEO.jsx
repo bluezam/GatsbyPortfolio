@@ -18,8 +18,8 @@ const query = graphql`
         }
       }
       social {
-        Twitter
         Linkedin
+        Instagram
       }
       gpg
       addressbook
@@ -47,14 +47,14 @@ const MetaTags = ({ title, description, url, image, meta }) => {
       <meta property="og:description" content={description} />
       <meta property="og:image" content={`${meta.url}${image}`} />
 
-      {/* Twitter Card tags */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content={meta.social.Twitter} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={`${meta.url}${image}`} />
+      {/* Instagram Card tags */}
+      <meta name="instagram:card" content="summary_large_image" />
+      <meta name="instagram:creator" content={meta.social.Instagram} />
+      <meta name="instagram:title" content={title} />
+      <meta name="instagram:description" content={description} />
+      <meta name="instagram:image" content={`${meta.url}${image}`} />
 
-      {/* Twitter Card tags */}
+      {/* Linkedin Card tags */}
       <meta name="linkedin:card" content="summary_large_image" />
       <meta name="linkedin:creator" content={meta.social.linkedin} />
       <meta name="linkedin:title" content={title} />

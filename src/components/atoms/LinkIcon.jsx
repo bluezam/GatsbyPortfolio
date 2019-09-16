@@ -9,6 +9,7 @@ import { ReactComponent as GitHub } from '../../images/github.svg'
 import { ReactComponent as Email } from '../../images/email.svg'
 import { ReactComponent as Twitter } from '../../images/twitter.svg'
 import { ReactComponent as Linkedin } from '../../images/linkedin.svg'
+import { ReactComponent as Instagram } from '../../images/instagram.svg'
 
 const LinkIcon = ({ title, type, ...props }) => {
   let typeOrTitle = type ? type : title
@@ -35,6 +36,8 @@ const LinkIcon = ({ title, type, ...props }) => {
       return <Twitter {...props} />
     case 'Linkedin':
       return <Linkedin {...props} />
+    case 'Instagram':
+      return <Instagram {...props} />
     default:
       return null
   }

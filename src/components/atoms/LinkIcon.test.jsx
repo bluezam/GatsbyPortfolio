@@ -28,6 +28,9 @@ describe('LinkIcon', () => {
     rerender(<LinkIcon title={'Linkedin'} />)
     expect(container.firstChild.nodeName).toBe('svg')
 
+    rerender(<LinkIcon title={'Instagram'} />)
+    expect(container.firstChild.nodeName).toBe('svg')
+
   })
 
   it('does not render with unknown type', () => {

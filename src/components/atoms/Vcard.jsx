@@ -20,9 +20,9 @@ const query = graphql`
       }
       social {
         Email
-        Twitter
         GitHub
         Linkedin
+        Instagram
       }
       gpg
       addressbook
@@ -91,7 +91,7 @@ export const constructVcard = async (dataUrl, meta) => {
   contact.set('url', meta.url, { type: 'Portfolio' })
   contact.add('url', meta.social.Blog, { type: 'Blog' })
   contact.set('nickname', 'bluezam')
-  contact.add('x-socialprofile', meta.social.Twitter, { type: 'twitter' })
+  contact.add('x-socialprofile', meta.social.Instagram, { type: 'instagram' })
   contact.add('x-socialprofile', meta.social.GitHub, { type: 'GitHub' })
   contact.add('x-socialprofile', meta.social.Linkedin, { type: 'linkedin' })
 
